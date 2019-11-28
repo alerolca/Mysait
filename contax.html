@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Marvel</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link href="https://fonts.googleapis.com/css?family=Alata|Anton|Oswald&display=swap" rel="stylesheet">
+
+
+  <!-- Favicon -->
+  <link rel="icon" href="https://res.cloudinary.com/dfog0e294/image/upload/v1547646298/webdev/Blog/favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+
+
+  <!-- HEADER -->
+  <div class="shadow-sm rounded background-color1">
+    <img class="d-block mx-auto" src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/MarvelLogo.svg/1200px-MarvelLogo.svg.png" width="200" draggable="false" alt="Logo">
+  </div>
+  <!-- /Logo -->
+
+
+  <header class="shadow-sm">
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark">
+      <div class="container">
+        <a class="navbar-brand mr-5" href="#">Marvel</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <!-- menu -->
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html">
+                <i class="fas fa-home"></i>Main</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About developer</a>
+            </li>
+            <!-- dropdown menu -->
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Blog
+              </a>
+              <div class="dropdown-menu" id="custom-dropdown-menu">
+                <a class="dropdown-item" href="reg.html">
+                  registration
+                  <span class="badge badge-secondary badge-info ml-2">
+                    New
+                  </span>
+                </a>
+                <a class="dropdown-item" href="contax.html">Maps</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+          </ul>
+        </div>
+        <!-- /menu -->
+      </div>
+    </nav>
+
+
+  </header>
+  <main class="py-3">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6">
+        <iframe class="karta" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2630.549012560542!2d37.59502441585076!3d48.75231111612372!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40df973cae7deb15%3A0x36ab79df06e831f6!2z0YPQuy4g0JDQutCw0LTQtdC80LjRh9C10YHQutCw0Y8sIDksINCa0YDQsNC80LDRgtC-0YDRgdC6LCDQlNC-0L3QtdGG0LrQsNGPINC-0LHQu9Cw0YHRgtGMLCA4NDMwMA!5e0!3m2!1sru!2sua!4v1574780703659!5m2!1sru!2sua" height="450" frameborder="0" style="border:0; width:100%;" allowfullscreen="" ></iframe>
+          </div>
+        <div class="col-md-6">
+          <!-- Contact Form -->
+          <h2 class="display-3">
+              Contact me
+            </h2>
+          <div class="mb-1">
+            <h4>
+              <i class="far fa-envelope"></i>
+              Don't hesitate to contact me
+            </h4>
+          </div>
+          <h5>
+            Ready for offers and cooperation
+          </h5>
+          <p class="text-muted">
+            Phone: +1 (0) 000 0000 000 <br> Email: <a href="#">pixelsteam28@gmail.com</a>
+          </p>
+
+          <!-- Input -->
+          <form>
+            <div class="row">
+              <!-- Name -->
+              <div class="col-md-6 pb-3">
+                <input type="text" class="form-control input" name="name" data-form-field="Name" placeholder="Your Name" required="">
+              </div>
+              <!-- Phone -->
+              <div class="col-md-6 pb-3">
+                <input type="text" class="form-control input" name="phone" data-form-field="Phone" placeholder="Phone" required="">
+              </div>
+              <!-- Email -->
+              <div class="col-md-12 pb-3">
+                <input type="email" class="form-control input" name="email" data-form-field="Email" placeholder="Email" required="">
+              </div>
+              <!-- Message -->
+              <div class="col-md-12 pb-3">
+                <textarea class="form-control input" name="message" rows="3" maxlength="6000" data-form-field="Message" placeholder="Message" style="resize:none"></textarea>
+              </div>
+              <div class="input-group-btn col-md-12">
+                <button type="submit" class="btn btn-outline-dark btn-form display-4">Send Message</button>
+              </div>
+            </div>
+          </form>
+
+        <!-- /col-md-6 -->
+
+      </div>
+      <!-- /row -->
+    </div>
+    <!-- /container -->
+  </main>
+      </div>
+  <footer class="border-top">
+      <
+      </footer>
+
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+
+
+
+</body>
+
+</html>
